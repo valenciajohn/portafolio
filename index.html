@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTAFOLIO</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/Components/header.css">
+    <link rel="stylesheet" href="/css/Components/perfil.css">
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <nav>
+            <h1><a href="#">JHON FRANK</a></h1>
+            <button class="icono-menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="menu">
+                <li><a href="#sobreMi">Sobre Mi</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#blog">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!--Sección del perfil-->
+    <section class="perfil">
+        <h1>Jhon Frank Vásquez Valencia</h1>
+        <h2>Desarrollador de Software</h2>
+        <p class="descripcion">
+            Profesional versátil con amplia experiencia en atención al cliente, vigilancia
+            de instalaciones y apoyo en eventos, siempre enfocado en brindar un
+            servicio de calidad. Me caracterizo por mi capacidad para gestionar
+            múltiples tareas de manera eficiente, con un enfoque proactivo, resolutivo
+            y excelente habilidad para la comunicación interpersonal. Cuento con
+            sólidos conocimientos digitales y un fuerte compromiso con el trabajo
+            en equipo, lo que me permite adaptarme rápidamente a entornos laborales
+            dinámicos. Estoy en busca de una oportunidad a largo plazo que me
+            permita seguir desarrollándome profesionalmente y aportar mis competencias
+            para alcanzar los objetivos de la empresa.
+        </p>
+        <!--Contenedor 3D-->
+        <section class="imagen-3d">
+            <canvas id="imagen3d"></canvas>
+        </section>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/three@0.133.0/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.133.0/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.133.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="/script.js"></script>
+</body>
+
+</html>
